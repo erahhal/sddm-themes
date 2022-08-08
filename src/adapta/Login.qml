@@ -139,6 +139,7 @@ GridLayout {
             Layout.preferredWidth: textboxWidth()
             Layout.topMargin: 5
             echoMode: TextInput.Password
+            passwordMaskDelay: 0
             placeholderText: textConstants.password
             clearButtonShown: true
             revealPasswordButtonShown: true
